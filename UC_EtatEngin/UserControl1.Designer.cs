@@ -60,6 +60,7 @@
             this.lblNumero.Size = new System.Drawing.Size(48, 33);
             this.lblNumero.TabIndex = 1;
             this.lblNumero.Text = "N°";
+            this.lblNumero.Click += new System.EventHandler(this.lblNumero_Click);
             // 
             // lblDate
             // 
@@ -71,6 +72,7 @@
             this.lblDate.Size = new System.Drawing.Size(78, 33);
             this.lblDate.TabIndex = 3;
             this.lblDate.Text = "Date";
+            this.lblDate.Click += new System.EventHandler(this.lblDate_Click);
             // 
             // label4
             // 
@@ -96,6 +98,7 @@
             this.cboMission.Text = "En mission   ";
             this.cboMission.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.cboMission.UseVisualStyleBackColor = true;
+            this.cboMission.CheckedChanged += new System.EventHandler(this.cboMission_CheckedChanged);
             // 
             // cboPanne
             // 
@@ -110,6 +113,7 @@
             this.cboPanne.Text = "En panne      ";
             this.cboPanne.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.cboPanne.UseVisualStyleBackColor = true;
+            this.cboPanne.CheckedChanged += new System.EventHandler(this.cboPanne_CheckedChanged);
             // 
             // pictureBox1
             // 

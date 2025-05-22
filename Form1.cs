@@ -170,5 +170,14 @@ namespace SAE_A21D21_pompiers
                 MessageBox.Show("OK");
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Frm_Engin  Engin = new Frm_Engin();
+            if(DialogResult.OK == Engin.ShowDialog())
+            {
+                
+            }
+        }
     }
 }
