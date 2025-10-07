@@ -2,7 +2,7 @@
 
 Ce projet est une application de gestion complète pour les Services Départementaux d'Incendie et de Secours (SDIS 67). L'application permet au **régulateur** de la Direction de la Sécurité Civile (DSC) de superviser **quatre casernes**, le personnel, le matériel et l'ensemble des missions.
 
-Le développement a été réalisé en **[Langage/Framework utilisé, ex: C# / Windows Forms ou WPF]** avec une base de données **SQLite** pour le stockage local des informations.
+Le développement a été réalisé en **C#** avec le framework **.NET (Windows Forms ou WPF)** et une base de données **SQLite** pour le stockage local des informations.
 
 ## 🌟 Fonctionnalités Principales
 
@@ -40,16 +40,18 @@ Des requêtes SQL spécifiques (pour le régulateur) sont implémentées pour fo
 
 ## 🛠️ Stack Technique
 
-* **Langage Principal** : [Ex: C#]
-* **Framework** : [Ex: .NET, Windows Forms, WPF]
-* **Base de Données** : **SQLite** (Fichier `SDIS67.db`)
-* **Schéma** : Base de données construite selon le schéma conceptuel `bdPompier` (voir documentation annexe).
-* **Bonnes Pratiques** : Utilisation de classes dédiées pour la gestion de la connexion (`Connexion.cs`) et le partage du DataSet (`mesDatas.cs`).
+* **Langage Principal** : C#
+* **Framework** : .NET (Windows Forms ou WPF)
+* **Base de Données** : SQLite (Fichier `SDIS67.db`)
+* **Schéma Conceptuel** : Base de données construite selon le schéma conceptuel `bdPompier` (voir documentation annexe).
+* **Bonnes Pratiques** :
+  * Utilisation de classes dédiées pour la gestion de la connexion (`Connexion.cs`)
+  * Partage du DataSet via la classe (`mesDatas.cs`)
 
 ## 🚀 Installation et Démarrage
 
-1.  **Prérequis** : Assurez-vous d'avoir [Version de .NET] installé.
+1.  **Prérequis** : Assurez-vous d'avoir la version requise de **.NET** installée.
 2.  **Clonage** : Cloner ce dépôt : `git clone <URL_du_dépôt>`
-3.  **Démarrage** : Ouvrez la solution `Sae24_Caserne.sln` avec [Ex: Visual Studio] et lancez le projet.
+3.  **Démarrage** : Ouvrez la solution `Sae24_Caserne.sln` avec **Visual Studio** et lancez le projet.
 
 *(Note : Les droits de mise à jour sont conditionnés par la table `Admin`.)*
